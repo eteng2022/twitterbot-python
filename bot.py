@@ -29,5 +29,5 @@ keywords = ["tweepy", "#elasticbeanstalk"] # add any keywords and hashtags you w
 users = ["UCBerkeley", "SpaceLiminalBot", "RabbitEveryHour"] # add the @s of users you want to track
 userids = [api.get_user(screen_name=name).id for name in users]
 print(f"searching for tweets with keywords {keywords} and from users {users}")
-streamlistener = StreamListener(API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_SECRET, api, keywords, userids)
+streamlistener = StreamListener(API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_SECRET, api)
 streamlistener.filter(follow=userids, track=keywords)
