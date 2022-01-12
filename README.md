@@ -8,7 +8,7 @@ Clone the repo and install the following dependencies:
 pip install tweepy
 pip install python-dotenv
 ```
-Alternately, use a virtual environment and install from `requirements.txt`.
+Alternately, you can use a virtual environment and install from `requirements.txt`:
 ```
 pip install -r requirements.txt
 ```
@@ -33,4 +33,4 @@ With your API keys and any required dependencies installed, you can run the bot 
 ```
 python bot.py
 ```
-To run the bot continuously, consider running your script on an online server such as [PythonAnywhere](https://www.pythonanywhere.com/) or [Heroku](https://www.heroku.com/)!
+To run the bot continuously, consider running your script using a cron job or on an online server!
