@@ -8,6 +8,10 @@ Clone the repo and install the following dependencies:
 pip install tweepy
 pip install python-dotenv
 ```
+Alternately, use a virtual environment and install from `requirements.txt`.
+```
+pip install -r requirements.txt
+```
 The python-dotenv module will be used to store environment variables, namely the API keys unique to your Twitter account. Create a file named ```.env``` in the base directory of the project with this format:
 ```
 twitter_api_key=<YOUR API KEY HERE>
